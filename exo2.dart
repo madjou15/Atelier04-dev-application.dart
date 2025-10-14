@@ -7,4 +7,8 @@ class Point {
     _x += dx;
     _y += dy;
   }
-  
+  void display() {
+    print('coordonnées : ($_x, $_y)');
+  }
+
+}   
