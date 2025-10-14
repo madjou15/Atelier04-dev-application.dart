@@ -10,5 +10,15 @@ void afficherCouleur(){
 }
 
 
+}
 
+void main() {
+  var c1 = Couleur(30 , 80, 50);
+  c1.afficherCouleur();
+  var c2 = Couleur.rouge();
+  c2.afficherCouleur();
+  var c3 = Couleur.vert();
+  c3.afficherCouleur();
+  var c4 = Couleur.bleue();
+  c4.afficherCouleur();
 }
