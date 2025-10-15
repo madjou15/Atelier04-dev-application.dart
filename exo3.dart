@@ -21,3 +21,10 @@ void depot(double montant) {
   }
 }
 
+void main() {
+  var compte1 = Compte("TMB-123");
+
+  compte1.depot(150);
+
+  print("Le solde du compte ${compte1.numeroCompte} est : ${compte1.solde}");
+}
