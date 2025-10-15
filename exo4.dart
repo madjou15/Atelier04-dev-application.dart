@@ -49,4 +49,7 @@ void main() {
   catalogue.add(Film("Titanic", 195));
 
   
-
+  for (var media in catalogue) {
+    media.afficherType();
+  }
+}
