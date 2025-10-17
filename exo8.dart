@@ -15,4 +15,13 @@ class Livre {
     print("Titre: $titre, Auteur: $auteur, Pages: $pages");
   }
 
+  static void afficherTotalLivres() {
+    print("Nombre total de livres créés : $totalLivres");
+  }
+}
+class Roman extends Livre {
+  String genre;
+
+  Roman(String titre, String auteur, this.genre) : super(titre, auteur);
+
   
